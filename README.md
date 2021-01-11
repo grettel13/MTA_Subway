@@ -4,9 +4,10 @@ The use case for this project is to address a client's desire to fill their even
 
 > The challenge is to use MTA subway data to identify optimal subway station positions for the street team.
 
+---
 <br/>
 
-**Approach:**
+# Approach:
 
 1. Analyze/clean data
 2. Identify Top 10 stations by volume
@@ -14,7 +15,7 @@ The use case for this project is to address a client's desire to fill their even
 
 <br/>
 
-**Data used:**
+# Data used:
 
 We used data from the [MTA Data Feeds](http://web.mta.info/developers/developer-data-terms.html#data)
 
@@ -25,7 +26,7 @@ We used data from the [MTA Data Feeds](http://web.mta.info/developers/developer-
 
 <br/>
 
-**Features used:**
+# Features used:
 
 *Main features*
 
@@ -63,10 +64,11 @@ We used data from the [MTA Data Feeds](http://web.mta.info/developers/developer-
 
 <br/>
 
-**Tools Used:**
+# Tools Used:
 
 - Seaborn
 - Matplotlib
-
 <br/>
+
+---
 This project could possibly be of use to those looking for the peak days/times of the most populous NYC subway stations.
