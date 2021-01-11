@@ -25,6 +25,44 @@ We used data from the [MTA Data Feeds](http://web.mta.info/developers/developer-
 
 <br/>
 
+**Features used:**
+
+*Main features*
+
+| Feature | Usage
+| --------------- | --------------
+| C/A, UNIT, SCP | Concatenated to create unique turnstile ID
+| STATION | Station names
+| DATE, TIME | Converted to datetime
+| ENTRIES, EXITS | Net values added to analyze total traffic
+
+<br/>
+
+- C/A - Control Area
+- Unit - Remote unit for a station
+- SCP - Turnstile device
+- Station - Station name. These are not unique for some subsequent stops on the same street or avenue
+- Date/Time - Values as strings
+- Entries/Exits - Represented as incremental values from the last reported value
+
+<br/>
+
+*Data Cleaning features*
+
+| Feature | Usage
+| --------------- | --------------
+| LINENAME | Concatenated to stations with multiple spread out locations
+| DIVISION | Filtered only values for subway stations
+| DESC | Removed duplicate records with "RECOVER AUD" value
+
+<br/>
+
+- Linename - Line serviced by specific record
+- Division - Old representation of NYC lines
+- Desc - Differentiates the way records were received, either through the usual 4-hour audit or a recovery process
+
+<br/>
+
 **Tools Used:**
 
 - Seaborn
