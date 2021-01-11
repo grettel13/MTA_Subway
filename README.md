@@ -5,15 +5,11 @@ The use case for this project is to address a client's desire to fill their even
 > The challenge is to use MTA subway data to identify optimal subway station positions for the street team.
 
 ---
-<br/>
-
 # Approach:
 
 1. Analyze/clean data
 2. Identify Top 10 stations by volume
 3. Identify target days and times for each station
-
-<br/>
 
 # Data used:
 
@@ -23,8 +19,6 @@ We used data from the [MTA Data Feeds](http://web.mta.info/developers/developer-
 | --------------- | -------------- | ----------- |
 | [Turnstile Data](http://web.mta.info/developers/turnstile.html) | [Descriptions](http://web.mta.info/developers/resources/nyct/turnstile/ts_Field_Description.txt) | Data analysis
 | [Station Entrances](http://web.mta.info/developers/data/nyct/subway/StationEntrances.csv) | [Descriptions](http://web.mta.info/developers/resources/nyct/subway/StationEntranceDefinitions.csv) | Reference for mapping entrance locations
-
-<br/>
 
 # Features used:
 
@@ -62,13 +56,10 @@ We used data from the [MTA Data Feeds](http://web.mta.info/developers/developer-
 - Division - Old representation of NYC lines
 - Desc - Differentiates the way records were received, either through the usual 4-hour audit or a recovery process
 
-<br/>
-
 # Tools Used:
 
 - Seaborn
 - Matplotlib
-<br/>
 
 ---
 This project could possibly be of use to those looking for the peak days/times of the most populous NYC subway stations.
